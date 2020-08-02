@@ -1,25 +1,24 @@
 # projectMoney
 
-Un programa CLI que permite conocer los valores actuales de Wall Street.
+A CLI program that allows you to know the current values of Wall Street.
 
-## ¿Cómo preparar el entorno para trabajar?
+## How to prepare the environment to work?
 
-Antes de ejecutar los siguientes comandos es necesario tener instalado [*Python 3*](https://www.python.org/downloads/) en nuestro ordenador. Se recomienda que al instalar Python 3 se seleccione la opción de _"Add Python 3.8 to PATH"_.
+Before executing the following commands, it is necessary to have [*Python 3*](https://www.python.org/downloads/) installed on our computer. It is recommended that when installing Python 3 you select the option "_Add Python 3.8 to PATH_".
 
-1. Instalamos "pipenv". 
+1. We install "pipenv" from terminal.
 
-+ Windows:  
-``` pip install pipenv ```.  
++ Windows:
+``` pip install pipenv ```.
 
-+ MacOs o Linux:  
-``` pip3 install pipenv ```.  
++ MacOs or Linux:
+``` pip3 install pipenv ```.
 
-2. Iniciamos el entorno virtual:  
+2. We start the virtual environment:
++  ``` pipenv shell ```.
 
-``` pipenv shell ```.  
-
-Más información sobre como usar Pipenv haciendo [click aquí](https://realpython.com/pipenv-guide/)
+[More information about using Pipenv (Spanish)](https://realpython.com/pipenv-guide/)
 
 
-## Links útiles
-- [Convenciones de Python 3.](https://elsolitario.org/post/guia-de-estilos-para-el-codigo-de-python)
+## Useful links
+- [Conventions (Spanish)](https://elsolitario.org/post/guia-de-estilos-para-el-codigo-de-python)
