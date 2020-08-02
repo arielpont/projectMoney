@@ -1,6 +1,6 @@
 # projectMoney
 
-Un programa CLI que permite conocer los valores los valores actuales de Wall Street.
+Un programa CLI que permite conocer los valores actuales de Wall Street.
 
 ## ¿Cómo preparar el entorno para trabajar?
 
