@@ -1,9 +1,41 @@
+# imports
+try:
+    import datetime as dt
+except ImportError:
+    print("ImportError: <dt>.")
+    dt = None
+
 try:
     import os
 except ImportError:
     print("ImportError: <os>.")
     os = None
 
+try:
+    import matplotlib.pyplot as plt
+except ImportError:
+    print("ImportError: <plt>.")
+    plt = None
+
+try:
+    from matplotlib import style
+except ImportError:
+    print("ImportError: <style>.")
+    style = None
+
+try:
+    import pandas as pd
+except ImportError:
+    print("ImportError: <pd>.")
+    pd = None
+
+try:
+    import pandas_datareader.data as web
+except ImportError:
+    print("ImportError: <web>.")
+    web = None
+
+# functions
 def clear(): 
     # windows 
     if os.name == "nt": 

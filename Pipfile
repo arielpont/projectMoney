@@ -6,6 +6,9 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+pandas = "*"
+pandas-datareader = "*"
+matplotlib = "*"
 
 [requires]
 python_version = "3.8"
