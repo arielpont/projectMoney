@@ -1,48 +1,15 @@
-# imports
-try:
-    import datetime as dt
-except ImportError:
-    print("ImportError: <dt>.")
-    dt = None
+# 1st python libraries
+# import datetime as dt
 
-try:
-    import os
-except ImportError:
-    print("ImportError: <os>.")
-    os = None
+# 2nd custom libraries
+from modules.functions import clear
 
-try:
-    import matplotlib.pyplot as plt
-except ImportError:
-    print("ImportError: <plt>.")
-    plt = None
+# 3ed third party libraries
+# import matplotlib.pyplot as plt
+# from matplotlib import style
+import pandas as pd
+# import pandas_datareader.data as web
 
-try:
-    from matplotlib import style
-except ImportError:
-    print("ImportError: <style>.")
-    style = None
-
-try:
-    import pandas as pd
-except ImportError:
-    print("ImportError: <pd>.")
-    pd = None
-
-try:
-    import pandas_datareader.data as web
-except ImportError:
-    print("ImportError: <web>.")
-    web = None
-
-# functions
-def clear(): 
-    # windows 
-    if os.name == "nt": 
-        _ = os.system("cls") 
-    # mac and linux
-    else: 
-        _ = os.system("clear")
 
 # run when this file is executed as main (python app.py)
 if __name__ == "__main__":
@@ -60,6 +27,7 @@ if __name__ == "__main__":
     while True:
         print("Welcome! Select an option please:\n")
 
+        # check if options is not empety and a LIST or a TUPLE
         if options != "" and type(options) is list or type(options) is tuple:
             
             # print options
